@@ -31,3 +31,81 @@ Claims_Parsing/
 └── README.md                 # Project documentation
 
 
+## Installation
+
+1. Clone the Repository
+2. Set Up a Virtual Environment
+3. Install Dependencies
+
+```bash
+git clone https://github.com/HienTa2/Claims_Parsing.git
+cd Claims_Parsing
+
+
+---
+
+### **4. Add Visual Enhancements for GitHub**
+While GitHub does not natively render "Copy code" buttons, it does format the code blocks in a clean way. Here's how the section you showed in the screenshot would look in Markdown:
+
+```markdown
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/HienTa2/Claims_Parsing.git
+cd Claims_Parsing
+
+
+## 2. Set Up a Virtual Environment
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+## 3. Install Dependencies
+
+pip install -r requirements.txt
+
+
+---
+
+### **Result on GitHub**
+When rendered on GitHub, this would look similar to your screenshot, with clean code blocks for each command.
+
+---
+
+### **Bonus: Add Emojis or Icons**
+You can make the sections more visually engaging with emojis or icons. For example:
+
+```markdown
+## 🚀 Installation
+
+Follow these steps to set up the project on your local machine:
+
+### 🛠️ 1. Clone the Repository
+```bash
+git clone https://github.com/HienTa2/Claims_Parsing.git
+cd Claims_Parsing
+
+## 3.Set Up a Virtual Environment
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+## 4. Install Dependencies
+
+pip install -r requirements.txt
+
+
+---
+
+### **How to Add This to Your README**
+1. Open your `README.md` file in your text editor.
+2. Add the above Markdown sections where appropriate.
+3. Save and commit the updated file:
+   ```bash
+   git add README.md
+   git commit -m "Update README with enhanced installation instructions"
+   git push origin main
+
