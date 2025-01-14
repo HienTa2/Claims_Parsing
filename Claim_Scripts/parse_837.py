@@ -74,6 +74,6 @@ def parse_and_analyze_837(file_path, output_file_path):
         print(f"An unexpected error occurred: {e}")
 
 # Usage
-file_path_global = '837/sample_837.txt'  # Path to your input file
+file_path_global = '../837/sample_837.txt'  # Path to your input file
 output_file_path = '837/output_837_segments_analyzed.txt'  # Path to save the output
 parse_and_analyze_837(file_path_global, output_file_path)

@@ -5,7 +5,7 @@ import socket
 from pathlib import Path
 
 # Configure logging
-logging.basicConfig(filename='hl7_parser.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='../hl7_parser.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def log_error(message):
     logging.error(message)
@@ -177,7 +177,7 @@ def process_real_time_hl7(port):
 
 # Usage
 # Parse and analyze a static HL7 file
-file_path = 'hL7/sample_oru.hl7'  # Replace with your file path
+file_path = '../hl7/sample_oru.hl7'  # Replace with your file path
 output_json = 'hl7/output_hl7.json'
 output_csv = 'hl7/output_hl7.csv'
 parse_and_analyze_hl7(file_path, output_json, output_csv)
