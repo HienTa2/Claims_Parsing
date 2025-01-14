@@ -96,13 +96,3 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
 
-
-### **How to Add This to Your README**
-1. Open your `README.md` file in your text editor.
-2. Add the above Markdown sections where appropriate.
-3. Save and commit the updated file:
-   ```bash
-   git add README.md
-   git commit -m "Update README with enhanced installation instructions"
-   git push origin main
-   ```
