@@ -10,7 +10,7 @@ This project includes:
 - **HL7 Processing:** Parse HL7 files to extract patient and observation data.
 
 ---
-
+```
 ## **Project Structure**
 plaintext
 Claims_Parsing/
@@ -29,7 +29,7 @@ Claims_Parsing/
 ├── hl7_parser.log            # Log file for HL7 processing
 ├── LICENSE                   # Project license (to be specified)
 └── README.md                 # Project documentation
-
+```
 
 ## Installation
 
