@@ -12,7 +12,7 @@ This project includes:
 ---
 
 ## **Project Structure**
-```plaintext
+plaintext
 Claims_Parsing/
 ├── .venv/                    # Virtual environment for dependencies
 ├── 835/                      # Sample 835 files
@@ -40,14 +40,14 @@ Claims_Parsing/
 ```bash
 git clone https://github.com/HienTa2/Claims_Parsing.git
 cd Claims_Parsing
+```
 
 
----
 
 ### **4. Add Visual Enhancements for GitHub**
 While GitHub does not natively render "Copy code" buttons, it does format the code blocks in a clean way. Here's how the section you showed in the screenshot would look in Markdown:
 
-```markdown
+
 ## Installation
 
 Follow these steps to set up the project on your local machine:
@@ -56,7 +56,7 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/HienTa2/Claims_Parsing.git
 cd Claims_Parsing
-
+```
 
 ## 2. Set Up a Virtual Environment
 
@@ -68,8 +68,6 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 
----
-
 ### **Result on GitHub**
 When rendered on GitHub, this would look similar to your screenshot, with clean code blocks for each command.
 
@@ -78,7 +76,7 @@ When rendered on GitHub, this would look similar to your screenshot, with clean 
 ### **Bonus: Add Emojis or Icons**
 You can make the sections more visually engaging with emojis or icons. For example:
 
-```markdown
+
 ## 🚀 Installation
 
 Follow these steps to set up the project on your local machine:
@@ -86,6 +84,7 @@ Follow these steps to set up the project on your local machine:
 ### 🛠️ 1. Clone the Repository
 ```bash
 git clone https://github.com/HienTa2/Claims_Parsing.git
+```
 cd Claims_Parsing
 
 ## 3.Set Up a Virtual Environment
@@ -98,8 +97,6 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 
----
-
 ### **How to Add This to Your README**
 1. Open your `README.md` file in your text editor.
 2. Add the above Markdown sections where appropriate.
@@ -108,4 +105,4 @@ pip install -r requirements.txt
    git add README.md
    git commit -m "Update README with enhanced installation instructions"
    git push origin main
-
+   ```
