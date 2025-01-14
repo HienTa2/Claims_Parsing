@@ -31,27 +31,3 @@ Claims_Parsing/
 └── README.md                 # Project documentation
 
 
-Installation
-Follow these steps to set up the project on your local machine:
-
-1. Clone the Repository
-
-git clone https://github.com/HienTa2/Claims_Parsing.git
-cd Claims_Parsing
-
-3. Install Dependencies
-pip install -r requirements.txt
-
-Scripts
-1. parse_837.py
-Parses 837 files to extract key claim details such as patient name, claim ID, billed amount, and service date.
-
-Usage:
-python Claim_Scripts/parse_837.py
-
-Input:
-
-837/sample_837.txt
-Output:
-
-Parsed claims data in the console or output file.
