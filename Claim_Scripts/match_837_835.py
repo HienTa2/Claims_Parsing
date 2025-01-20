@@ -105,5 +105,5 @@ def match_837_835(claims_file, payments_file, output_file_path):
 # Usage
 claims_file_path = '../837/sample_837.txt'  # Path to the 837 file
 payments_file_path = '../835/sample_835.txt'  # Path to the 835 file
-output_file_path = '835/reconciliation_report.txt'  # Path to save the reconciliation report
+output_file_path = '../835/reconciliation_report.txt'  # Path to save the reconciliation report
 match_837_835(claims_file_path, payments_file_path, output_file_path)

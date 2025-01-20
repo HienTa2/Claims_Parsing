@@ -178,8 +178,8 @@ def process_real_time_hl7(port):
 # Usage
 # Parse and analyze a static HL7 file
 file_path = '../hl7/sample_oru.hl7'  # Replace with your file path
-output_json = 'hl7/output_hl7.json'
-output_csv = 'hl7/output_hl7.csv'
+output_json = '../hl7/output_hl7.json'
+output_csv = '../hl7/output_hl7.csv'
 parse_and_analyze_hl7(file_path, output_json, output_csv)
 
 # Uncomment to enable real-time HL7 processing

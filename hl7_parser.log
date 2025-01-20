@@ -9,3 +9,8 @@
 2025-01-13 23:51:16,400 - INFO - Summary of Observations:
 2025-01-13 23:51:16,400 - INFO -   Test Name: WBC^White Blood Cell Count, Result: 5.6 10^3/uL (Reference: 4.5-11.0)
 2025-01-13 23:51:16,400 - INFO -   Test Name: HGB^Hemoglobin, Result: 13.2 g/dL (Reference: 12.0-15.5)
+2025-01-14 01:01:00,666 - INFO - Reading HL7 file: ../hl7/sample_oru.hl7
+2025-01-14 01:01:00,668 - INFO - Parsing complete. JSON: ../hl7/output_hl7.json, CSV: ../hl7/output_hl7.csv
+2025-01-14 01:01:00,668 - INFO - Summary of Observations:
+2025-01-14 01:01:00,668 - INFO -   Test Name: WBC^White Blood Cell Count, Result: 5.6 10^3/uL (Reference: 4.5-11.0)
+2025-01-14 01:01:00,668 - INFO -   Test Name: HGB^Hemoglobin, Result: 13.2 g/dL (Reference: 12.0-15.5)
